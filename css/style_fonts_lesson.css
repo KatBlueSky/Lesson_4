@@ -1,0 +1,178 @@
+/* &display=swap */
+
+/* Подключаею обнуляющий стиль*/
+@import "null.css";
+
+/* Подключаем шрифты Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,900;1,300&display=swap');
+
+/* Подключаю шрифты через плагин */
+/* @import url(https://fonts.googleapis.com/css?family=Short+Stack:regular&family=Caveat:regular&family=Spartan:regular,700,900&display=swap); */
+
+
+/* Подключаю шрифты Minako-Light-Regular и Minako-Regular которог нет на Google Fonts */
+@font-face {
+	font-family: "Minako-Light-Regular";
+	src: url("../fonts/Minako-Light-Regular.woff2") format("woff2"), url("../fonts/Minako-Light-Regular.woff") format("woff");
+	font-weight: 300;
+	font-style:normal;
+	font-display:swap;
+}
+
+@font-face {
+	font-family: "Minako-Regular";
+	src: url("../fonts/Minako-Regular.woff2") format("woff2"), url("../fonts/Minako-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style:normal;
+	font-display:swap;
+}
+
+
+body {
+    font-family:"Nunito", Arial, serif;
+	font-weight: 400;
+	/* font-weight: 700; */
+	/* font-weight: 900; */
+	/* !!!!!!не подключен!!! */
+	/* font-weight: 100; */
+	font-size: 20px;
+	color: rgb(66, 66, 66);
+}
+
+
+.title {
+	color: darkcyan;
+	font-family: "Minako-Regular";
+	font-weight: 400;
+	font-size: 75px;
+	text-align: center;
+}
+
+h3{
+	color: darkcyan;
+	font-family: "Minako-Light-Regular";
+	font-weight: 300;
+	font-size: 55px;
+	font-style: oblique;
+	text-align: center;
+}
+
+a {
+	color: rgb(255, 145, 0);
+	font-weight: 300;
+	font-size: 15px;
+}
+
+ .menu a {
+	color: rgb(161, 20, 255);
+	font-size: 20px;
+	text-align: left;
+
+
+}
+
+/*  Обращаюсь ко всем классам .subtitle в поззаголовках H2*/
+
+.subtitle {
+	font-family: "Nunito", Arial, serif;
+    font-weight: 700;
+	color: rgb(55, 194, 164);
+	font-size: 40px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+}
+/*  Обращаюсь ко все   ссылкам А в классах .subtitle в поззаголовках H2 */
+
+.subtitle > a {
+	font-family: "Nunito", Arial, serif;
+    font-weight: 700;
+	color: rgb(55, 194, 164);
+	font-size: 40px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+
+/*  Поставила .block просто для эксперимента!! */
+/* .block {
+	color: rgb(131, 20, 195);
+	text-align: justify;
+} */
+
+.text {
+	color: rgb(97, 142, 144);
+	font-family: "Minako-Light-Regular";
+	font-weight: 300;
+	font-size: 18px;
+}
+
+span{
+	color: rgb(4, 42, 36);	font-size: 25px;
+}
+
+.text span > a {
+	text-decoration: underline;
+	color: rgb(142, 24, 172);
+	text-shadow: 1px 2px 2px rgb(125, 191, 207);
+}
+
+
+.text-whatthefont { 
+	color: rgb(228, 228, 26);
+	font-family:"Minako-Light-Regular", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+ }
+
+.text-matcherator { 
+	color: rgba(16, 18, 119, 0.411);
+	text-align: justify;
+	line-height: 1.5;
+
+}
+
+.text-identifont{
+	text-decoration: overline;
+	color: tomato;
+	font-family: "Minako-Light-Regular";
+	font-weight: 300;
+}
+.text-identifont-2{
+	color: rgba(87, 5, 46, 0.2);
+	word-spacing: 20px;
+
+}
+
+.text-fount{
+	color: yellowgreen;
+	font-family: "Minako-Light-Regular";
+	font-weight: 300;
+	text-decoration: line-through;
+	font-size: 25px;
+}
+
+/* Хочу обратится именно с списку класса .list-fount */
+ol.list-fount>li {
+	font-style: italic;
+	color: rgb(128, 223, 223);
+	text-transform: capitalize;
+} 
+
+/* Хочу обратится именно span  класса .list-fount */
+	ol.list-fount> span li {
+	font-family:"Minako-Regular"; 
+	font-weight: 400;
+	color: rgb(220, 128, 223);
+} 
+
+.block-2{
+	color: rgb(221, 61, 136);
+}
+
+.block-2-text{
+	text-shadow: 2px 5px 5px rgb(122, 7, 103); 
+	font-weight: 900;
+}
+

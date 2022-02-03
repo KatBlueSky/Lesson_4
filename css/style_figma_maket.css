@@ -1,0 +1,53 @@
+/* &display=swap */
+
+/* Подключаею обнуляющий стиль*/
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+    font-family: "Lato", Arial, serif;
+    font-size: 16px;
+    color: rgba(66, 69, 81, 1);
+    width: 810px;
+}
+
+
+h1{ 
+    font-size: 46px;
+    font-style: normal;
+    line-height: 130%;
+    font-weight: 900;
+    color: rgba(30, 33, 44, 1);
+
+}
+
+.text-bold{
+    font-size: 20px;
+    color: rgba(30, 33, 44, 1);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.block{
+    font-style: normal;
+    line-height: 160%;
+}
+
+    
+.list{
+    /* из Figma  line-height 25.6/16px*/
+    text-indent: 30px;
+    line-height: 1.6;
+    }
+
+.text-bold{   
+    width: 600px;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+
+
